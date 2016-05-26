@@ -15,7 +15,7 @@ div.header li img{margin:0 2px;}
 /*主体*/
 div.content{width: 1200px;margin: 0 auto;overflow: hidden;}
 /*主体表单*/
-div.content .con-top{margin-top: 20px;}
+div.content .con-top{margin-top: 20px;overflow: hidden;}
 .con-top img{float: left;margin: 10px;}
 .con-top .p-border{line-height:48px;height: 48px;padding-left: 10px;margin: 10px; border-left: 1px solid #666666;float: left;color: #666666;}
 .c-box{float: left;margin: 0 10px;}
@@ -30,7 +30,7 @@ div.content .con-top{margin-top: 20px;}
 
 /*轮播图及导航栏*/
 /*主体右边*/
-.con-main{width: 1200px;overflow: hidden;margin: 0 auto;}
+.con-main{width: 1200px;margin: 0 auto;height: 455px;}
 .con-main .c-m-l dl{width: 200px;float: left;color: #fff;overflow: hidden;line-height: 40px;font-size: 12px;}
 .con-main .c-m-l dl dt{background: #c40000;height: 40px;text-align: center;border: 1px solid #3d3d3d;}
 .con-main .c-m-l dl dd{background: #2d2d2d;height: 38px;padding-left:40px ;border: 1px solid #3d3d3d;display: none;line-height: 38px;}
@@ -42,7 +42,17 @@ div .c-m-nav{width: 1200px;border-bottom: 2px solid #c40000;height: 40px;}
 div .c-m-nav ul li{float: left;padding:0 30px;text-align: center;height: 40px;line-height: 40px;font-size: 14px;}
 div .c-m-nav ul li.li-r{float: right;}
 
-
+/*主体轮播图*/
+.con-main .c-m-l dl dd{display: block;}
+.main{width: 990px;float: left;position: relative;left: 10px;}
+.main .banner{width:740px;height:400px;top:10px;float: left;position: absolute;overflow: hidden}
+.main .banner img{height: 400px;width: 740px;float: left;display: inline-block;;}
+.main .list{position: absolute;z-index: 99;left:285px;bottom: 10px;}
+.main .list li{float: left;width: 18px;height: 18px;border-radius: 9px;background: #000;color: #fff;font-size: 12px;text-align: center;line-height: 18px;margin: 5px;}
+.main .m-r{float: right;margin-top:12px;}
+.main .m-r dl{padding: 20px;border: 1px solid #ededed;}
+.main .m-r dl dt{font-size:14px;color: #000000 ;padding-bottom:10px;}
+.main .m-r dl dd{font-size: 12px;line-height: 24px;color: #ccc;}
 
 /*尾部*/
 .footer{width: 100%;border-top: 1px solid #d9d9d9;overflow: hidden;}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

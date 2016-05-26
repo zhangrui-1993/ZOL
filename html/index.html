@@ -16,7 +16,12 @@
 			loadHtml("common/main.html","content");
 			loadHtml("common/footer.html","footer");
 		});		
-	</script>  
+	</script> 
+	<!--引入自己写的js-->
+	<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		
+	</script>
 	<body>
 	  <div class="body">
 	  	<!--头部-->
@@ -26,14 +31,17 @@
 	   	<div class="content">
 		</div>
 		<!--主体-->
-		<div class="main">
+		<!--<div class="main">
 			<div class="banner">
-				<img src="../img/banner1.jpg"/>
-				<img src="../img/banner2.jpg"/>
-				<img src="../img/banner3.jpg"/>
-				<img src="../img/banner4.jpg"/>
-				<img src="../img/banner5.jpg"/>
-				<img src="../img/banner6.jpg"/>
+				<div class="b-img">
+					<img src="../img/banner1.jpg"/>
+					<img src="../img/banner2.jpg"/>
+					<img src="../img/banner3.jpg"/>
+					<img src="../img/banner4.jpg"/>
+					<img src="../img/banner5.jpg"/>
+					<img src="../img/banner6.jpg"/>
+					<img src="../img/banner1.jpg"/>
+				</div>
 			</div>
 			<ul class="list">
 				<li>1</li>
@@ -54,22 +62,234 @@
 					<dd><a>[狂欢]嗨购不停 五一提前放价</a></dd>
 				</dl>
 			</div>
-		</div>
+		</div><br />-->
 		<!--主体楼梯-->
 		<div class="main-content">
-			<dl>
-				<dt><span class="m-c-dt-l"><h3><a>限时抢购</a></h3></span><span class="m-c-dt-r"><a>更多团购&lt;</a></span></dt>
-				<dd><dl><dt></dt><dd></dd></dl></dd>
+			<!--限时抢购-->
+			<dl class="dl-box">
+				<dt class="d-b-t">
+					<span class="m-c-dt-l"><h3><a>限时抢购</a></h3></span><span class="m-c-dt-r"><a>更多团购&gt;</a></span>
+				</dt>
+				<dd class="d-b-c1">
+					<a href="#"><img src="../img/jptg-1.jpg"/></a>
+					<a href="#"><img src="../img/jptg-2.jpg"/></a>
+					<a href="#"><img src="../img/jptg-3.jpg"/></a>
+					<a href="#"><img src="../img/jptg-4.jpg"/></a>
+				</dd>
 			</dl>
+			<!--特色购-->
+			<dl class="dl-box">
+				<dt class="d-b-t">
+					<span class="m-c-dt-l"><h3><a>特色购</a></h3></span><span class="m-c-dt-r"><a></a></span>
+				</dt>
+				<dd class="d-b-c">
+					<div class="div-img-l">
+						<a href="#"><img src="../img/tsg-1.jpg"></a>
+					</div>
+					<div class="div-img-c-t">
+						<a href="#"><img src="../img/tsg-2.jpg"></a><a href="#"><img src="../img/tsg-3.jpg"></a><a href="#"><img src="../img/tsg-4.png"></a><a href="#"><img src="../img/tsg-5.jpg"></a>
+					</div>
+					<div class="div-img-c-b">
+						<a href="#"><img src="../img/tsg-6.jpg"></a><a href="#"><img src="../img/tsg-7.jpg"></a><a href="#"><img src="../img/tsg-8.png"></a><a href="#"><img src="../img/tsg-9.jpg"></a>
+					</div>
+				</dd>
+			</dl>
+			<div class="div-ad-img"><a href="#"><img src="../img/ad1.jpg"></a></div>
+			<!--1F 手机通讯-->
+			<dl class="dl-box">
+				<dt class="d-b-t">
+					<span class="m-c-dt-l"><h3><a>1F 手机通讯</a></h3></span><span class="m-c-dt-r"><a>魅蓝note2</a> | <a>华为荣耀6 Plus</a> | <a>努比亚Z9</a> | <a>魅蓝note</a></span>
+				</dt>
+				<dd class="d-b-c">
+					<div class="d-d-l"><a href="#"><img src="../img/1F-1.jpg"/></a></div>
+					<ul class="d-u-r">
+						<li class="li-lb">
+							
+						</li>
+						<li class="li-t">
+							<h5><a>乐视手机1S （双4G）</a></h5>
+							<p><a>顺丰现货 赠品多多</a></p>
+							<a href="#"><img src="../img/1F-3.jpg"/></a>
+						</li>
+						<li class="li-t">
+							<h5><a>vivo X6 D 现货促销中</a></h5>
+							<p><a>小编推荐</a></p>
+							<a href="#"><img src="../img/1F-4.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>华为 荣耀畅玩5X指纹识</a></h5>
+							<p><a>多型号可选 下单赠礼</a></p>
+							<a href="#"><img src="../img/1F-5.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>魅蓝metal 时尚金属机身</a></h5>
+							<p><a>新品现货，赠高清贴膜</a></p>
+							<a href="#"><img src="../img/1F-6.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>GALAXI Note 5 三网通</a></h5>
+							<p><a>生动大屏，赠品丰富</a></p>
+							<a href="#"><img src="../img/1F-7.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>华为 Mate8 强性能</a></h5>
+							<p><a>大屏 现货发售</a></p>
+							<a href="#"><img src="../img/1F-8.png"/></a>
+						</li>
+					</ul>
+				</dd>
+				<dd class="d-b-b">
+					<a href="#"><img src="../img/1F-a.jpg" /></a><a href="#"><img src="../img/1F-b.jpg" /></a><a href="#"><img src="../img/1F-c.jpg" /></a><a href="#"><img src="../img/1F-d.jpg" /></a><a href="#"><img src="../img/1F-e.jpg" /></a><a href="#"><img src="../img/1F-f.jpg" /></a><a href="#"><img src="../img/1F-g.jpg" /></a><a href="#"><img src="../img/1F-h.jpg" /></a><a href="#"><img src="../img/1F-i.jpg" /></a><a href="#"><img src="../img/1F-j.jpg" /></a>
+				</dd>
+			</dl>
+			<!--2F 电脑数码/配件-->
+			<dl class="dl-box">
+				<dt class="d-b-t">
+					<span class="m-c-dt-l"><h3><a>2F 电脑数码/配件</a></h3></span><span class="m-c-dt-r"><a>iPad</a> | <a>联想Y50</a> | <a>尼康D750</a> | <a>佳能70D</a></span>
+				</dt>
+				<dd class="d-b-c">
+					<div class="d-d-l"><a href="#"><img src="../img/1F-1.jpg"/></a></div>
+					<ul class="d-u-r">
+						<li class="li-lb">
+							
+						</li>
+						<li class="li-t">
+							<h5><a>乐视手机1S （双4G）</a></h5>
+							<p><a>顺丰现货 赠品多多</a></p>
+							<a href="#"><img src="../img/1F-3.jpg"/></a>
+						</li>
+						<li class="li-t">
+							<h5><a>vivo X6 D 现货促销中</a></h5>
+							<p><a>小编推荐</a></p>
+							<a href="#"><img src="../img/1F-4.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>华为 荣耀畅玩5X指纹识</a></h5>
+							<p><a>多型号可选 下单赠礼</a></p>
+							<a href="#"><img src="../img/1F-5.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>魅蓝metal 时尚金属机身</a></h5>
+							<p><a>新品现货，赠高清贴膜</a></p>
+							<a href="#"><img src="../img/1F-6.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>GALAXI Note 5 三网通</a></h5>
+							<p><a>生动大屏，赠品丰富</a></p>
+							<a href="#"><img src="../img/1F-7.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>华为 Mate8 强性能</a></h5>
+							<p><a>大屏 现货发售</a></p>
+							<a href="#"><img src="../img/1F-8.png"/></a>
+						</li>
+					</ul>
+				</dd>
+				<dd class="d-b-b">
+					<a href="#"><img src="../img/1F-a.jpg" /></a><a href="#"><img src="../img/1F-b.jpg" /></a><a href="#"><img src="../img/1F-c.jpg" /></a><a href="#"><img src="../img/1F-d.jpg" /></a><a href="#"><img src="../img/1F-e.jpg" /></a><a href="#"><img src="../img/1F-f.jpg" /></a><a href="#"><img src="../img/1F-g.jpg" /></a><a href="#"><img src="../img/1F-h.jpg" /></a><a href="#"><img src="../img/1F-i.jpg" /></a><a href="#"><img src="../img/1F-j.jpg" /></a>
+				</dd>
+			</dl>
+			<div class="div-ad-img"><a href="#"><img src="../img/ad2.jpg"></a></div>
+			<!--3F 智能数码/家电-->
+			<dl class="dl-box">
+				<dt class="d-b-t">
+					<span class="m-c-dt-l"><h3><a>3F 智能数码/家电</a></h3></span><span class="m-c-dt-r"><a>游戏机</a> | <a>空气净化器</a> | <a>移动电源</a> | <a>平板电视</a> | <a>智能手环</a></span>
+				</dt>
+				<dd class="d-b-c">
+					<div class="d-d-l"><a href="#"><img src="../img/1F-1.jpg"/></a></div>
+					<ul class="d-u-r">
+						<li class="li-lb">
+							
+						</li>
+						<li class="li-t">
+							<h5><a>乐视手机1S （双4G）</a></h5>
+							<p><a>顺丰现货 赠品多多</a></p>
+							<a href="#"><img src="../img/1F-3.jpg"/></a>
+						</li>
+						<li class="li-t">
+							<h5><a>vivo X6 D 现货促销中</a></h5>
+							<p><a>小编推荐</a></p>
+							<a href="#"><img src="../img/1F-4.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>华为 荣耀畅玩5X指纹识</a></h5>
+							<p><a>多型号可选 下单赠礼</a></p>
+							<a href="#"><img src="../img/1F-5.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>魅蓝metal 时尚金属机身</a></h5>
+							<p><a>新品现货，赠高清贴膜</a></p>
+							<a href="#"><img src="../img/1F-6.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>GALAXI Note 5 三网通</a></h5>
+							<p><a>生动大屏，赠品丰富</a></p>
+							<a href="#"><img src="../img/1F-7.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>华为 Mate8 强性能</a></h5>
+							<p><a>大屏 现货发售</a></p>
+							<a href="#"><img src="../img/1F-8.png"/></a>
+						</li>
+					</ul>
+				</dd>
+				<dd class="d-b-b">
+					<a href="#"><img src="../img/1F-a.jpg" /></a><a href="#"><img src="../img/1F-b.jpg" /></a><a href="#"><img src="../img/1F-c.jpg" /></a><a href="#"><img src="../img/1F-d.jpg" /></a><a href="#"><img src="../img/1F-e.jpg" /></a><a href="#"><img src="../img/1F-f.jpg" /></a><a href="#"><img src="../img/1F-g.jpg" /></a><a href="#"><img src="../img/1F-h.jpg" /></a><a href="#"><img src="../img/1F-i.jpg" /></a><a href="#"><img src="../img/1F-j.jpg" /></a>
+				</dd>
+			</dl>
+			<!--4F DIY硬件/外设-->
+			<dl class="dl-box">
+				<dt class="d-b-t">
+					<span class="m-c-dt-l"><h3><a>4F DIY硬件/外设</a></h3></span><span class="m-c-dt-r"><a>华硕主板</a> | <a>移动硬盘</a> | <a>机械键盘</a> | <a>GTX970</a> | <a>DIY主板</a></span>
+				</dt>
+				<dd class="d-b-c">
+					<div class="d-d-l"><a href="#"><img src="../img/1F-1.jpg"/></a></div>
+					<ul class="d-u-r">
+						<li class="li-lb">
+							
+						</li>
+						<li class="li-t">
+							<h5><a>乐视手机1S （双4G）</a></h5>
+							<p><a>顺丰现货 赠品多多</a></p>
+							<a href="#"><img src="../img/1F-3.jpg"/></a>
+						</li>
+						<li class="li-t">
+							<h5><a>vivo X6 D 现货促销中</a></h5>
+							<p><a>小编推荐</a></p>
+							<a href="#"><img src="../img/1F-4.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>华为 荣耀畅玩5X指纹识</a></h5>
+							<p><a>多型号可选 下单赠礼</a></p>
+							<a href="#"><img src="../img/1F-5.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>魅蓝metal 时尚金属机身</a></h5>
+							<p><a>新品现货，赠高清贴膜</a></p>
+							<a href="#"><img src="../img/1F-6.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>GALAXI Note 5 三网通</a></h5>
+							<p><a>生动大屏，赠品丰富</a></p>
+							<a href="#"><img src="../img/1F-7.png"/></a>
+						</li>
+						<li class="li-b">
+							<h5><a>华为 Mate8 强性能</a></h5>
+							<p><a>大屏 现货发售</a></p>
+							<a href="#"><img src="../img/1F-8.png"/></a>
+						</li>
+					</ul>
+				</dd>
+				<dd class="d-b-b">
+					<a href="#"><img src="../img/1F-a.jpg" /></a><a href="#"><img src="../img/1F-b.jpg" /></a><a href="#"><img src="../img/1F-c.jpg" /></a><a href="#"><img src="../img/1F-d.jpg" /></a><a href="#"><img src="../img/1F-e.jpg" /></a><a href="#"><img src="../img/1F-f.jpg" /></a><a href="#"><img src="../img/1F-g.jpg" /></a><a href="#"><img src="../img/1F-h.jpg" /></a><a href="#"><img src="../img/1F-i.jpg" /></a><a href="#"><img src="../img/1F-j.jpg" /></a>
+				</dd>
+			</dl>	
+			<div class="div-ad-img"><a href="#"><img src="../img/ad3.jpg"></a></div>
 		</div>
 		<!--尾部-->
 		<div class="footer">
 			
 		</div>
-		<!--引入自己写的js-->
-		<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript">
-			
-		</script>
+		
 	</body>
 </html>
