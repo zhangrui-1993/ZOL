@@ -21,3 +21,7 @@ h3{font-size: 24px;}
 .d-u-r .li-b{width:160px;height:178px;float: left;padding: 16px 24px;}
 h5{font-size:14px ;color: #333;padding: 10px 0;}
 .d-u-r li p{font-size: 14px;height: 20px;color: #f33;padding: 0 0px 10px;}
+
+
+/*侧边导航栏*/
+.nav{width: 37px;height: 100%;position: fixed;z-index: 2;background: #000000;top: 0;right: 0;}

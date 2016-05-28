@@ -60,8 +60,11 @@
 #main .hearder{background: #fafafa;padding: 16px 0 16px 90px;margin-bottom: 30px;}
 #main .hearder a{color: #999;font:16px/28px;}
 /*注册页主体左边表单*/
-#main .main-l{width:500px;margin: 10px 90px;float: left;padding-bottom: 50px;}
+#main .main-l{width:500px;margin: 0 90px 10px;float: left;padding-bottom: 50px;}
 #main .main-l input{padding:10px 5px;font-size: 14px;border: 1px solid #ccc;width:278px}
+#main .main-l .form-titlie{width: 500px;height: 40px;border-bottom: 1px solid #e6e6e6;margin-bottom: 10px;}
+#main .main-l .form-titlie .f-t-t{width: 240px;height:22px;background: #fff;padding:9px 20px;border: 1px solid #E6E6E6;border-top: 2px solid #e02d2d;border-bottom: none;}
+#main .main-l .form-titlie .f-t-t span{width:280px;height:22px;background: url(../img/list-phone.png) no-repeat;display: inline-block;line-height:22px;color:#e02d2d;padding-left: 20px;}
 #main .main-l .f-span-l{color:#666;font-size:12px;width: 80px;text-align: right;height: 20px;display: inline-block;margin: 5px 0;}
 #main .main-l .p2{width: 300px;margin-left: 80px;font-size: 12px;color: #aaa;padding: 10px 0;}
 #main .main-l .f-span-r{color:#f00;font-size:12px;width: 80px;height: 20px;display: inline-block;margin: 5px 0;}

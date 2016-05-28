@@ -5,6 +5,13 @@
 		<title>注册页</title>
 		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+		<script src="../lib/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				phoneCode();				
+			});
+		</script>
 	</head>
 	<body>
 		<!--注册页头部-->
@@ -18,7 +25,11 @@
 			<div class="hearder"><a href="">30秒快速注册，加入ZOL商城</a></div>
 			<div class="main-l">
 				<form>
-					<input type="button" value="用手机号注册"/>
+					<div class="form-titlie">
+						<div class="f-t-t">
+							<span>用手机号注册</span>
+						</div>
+					</div>
 					<p><span class="f-span-l"><span class="s-t">* </span>手机号：</span><input type="text" class="tet1"/><span class="f-span-r"></span></p>
 					<p class="p2">请填写手机号码</p>
 					<p><span class="f-span-l"><span class="s-t">* </span>验证码：</span><input type="text" class="tet2"/><span class="f-span-r"></span></p>
