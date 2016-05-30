@@ -2,27 +2,27 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>注册页</title>
+		<title>登录</title>
 		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
 		<script src="../lib/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
-		<script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+		
 	</head>
 	<body>
 		<!--登录、注册页共用头部-->
 		<div id="header">
 			<img src="../img/logo_180x50.png"/><span>中关村在线旗下网上商城</span>
-			<div class="h-r">已经有ZOL商城账号？<a href="#">立即登录</a></div>
+			<div class="h-r">已经有ZOL商城账号？<a href="register-m.html">立即登录</a></div>
 			</div>
 		</div>
 		<!--注册页主体-->
 		<div id="main">			
 			<div class="main-r-right">
 				<p class="m-r-r-top"><p class="p-t-left">登录ZOL商城</p><p class="change"><a href="#">手机动态码登录</a></p><p class="change"><a href="#">普通方式登录</a></p></p> 
-				<form class="form1">
+				<form class="form1" id="demoForm">
 					<p class="p-t"></p>
-					<p><input type="text" class="tet1" placeholder="手机号/邮箱/用户名" /><span class="f-span-r"></span></p>
-					<p><input type="password" name="" class="password1" placeholder="密码"/></p>	
+					<p><input type="text" class="tet1" placeholder="手机号/邮箱/用户名" id="username" name="username" /><span class="f-span-r"></span></p>
+					<p><input type="password" name="" class="password1" placeholder="密码" id="password" name="password"/></p>	
 					<p class="p2"><a href="">忘记密码？</a></p>
 					<p class="p-b"><input type="submit" name="" id="" value="登 录" class="submit"/></p>
 				</form>	
@@ -42,4 +42,8 @@
 		<div id="border"></div>
 		<div id="footer"><a href="#">关于ZOL商城</a><img src="../img/border.png"/><a href="#" class="a-c">联系我们</a><img src="../img/border.png"/><a href="#">帮助中心</a><a href="#" class="a-l">&copy;2016.中关村在线 版权所有</a></div>
 	</body>
+	
+	<script src="../js/jquery.validate.js"></script>
+	<script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+	
 </html>

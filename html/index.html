@@ -2,26 +2,25 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
+		<title>首页</title>
 		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="../css/common.css" />
 		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
 	</head>
 	<!--导入JS文件-->
 	<script src="../lib/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
-	<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+	
 	<script type="text/javascript">
 		$(function(){
 			loadHtml("common/hearder.html","h-bdcolor");
 			loadHtml("common/main.html","content");
 			loadHtml("common/footer.html","footer");
+			loadHtml("common/three-level.html","three-level");			
 		});		
 	</script> 
 	<!--引入自己写的js-->
-	<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript">
-		
-	</script>
+
+	
 	<body>
 	  <div class="body">
 	  	<!--头部-->
@@ -71,7 +70,16 @@
 					<div class="d-d-l"><a href="#"><img src="../img/1F-1.jpg"/></a></div>
 					<ul class="d-u-r">
 						<li class="li-lb">
-							
+							<ul class="img-list">
+								<li><img src="../img/slb1.jpg"/></li>
+								<li><img src="../img/slb2.jpg"/></li>
+								<li><img src="../img/slb3.jpg"/></li>								
+							</ul>							
+							<ul class="banner-nav-list">
+								<li class="active"></li>
+								<li></li>
+								<li></li>								
+							</ul>
 						</li>
 						<li class="li-t">
 							<h5><a>乐视手机1S （双4G）</a></h5>
@@ -118,7 +126,16 @@
 					<div class="d-d-l"><a href="#"><img src="../img/1F-1.jpg"/></a></div>
 					<ul class="d-u-r">
 						<li class="li-lb">
-							
+							<ul class="img-list">
+								<li><img src="../img/slb1.jpg"/></li>
+								<li><img src="../img/slb2.jpg"/></li>
+								<li><img src="../img/slb3.jpg"/></li>								
+							</ul>							
+							<ul class="banner-nav-list">
+								<li class="active"></li>
+								<li></li>
+								<li></li>								
+							</ul>
 						</li>
 						<li class="li-t">
 							<h5><a>乐视手机1S （双4G）</a></h5>
@@ -166,7 +183,16 @@
 					<div class="d-d-l"><a href="#"><img src="../img/1F-1.jpg"/></a></div>
 					<ul class="d-u-r">
 						<li class="li-lb">
-							
+							<ul class="img-list">
+								<li><img src="../img/slb1.jpg"/></li>
+								<li><img src="../img/slb2.jpg"/></li>
+								<li><img src="../img/slb3.jpg"/></li>								
+							</ul>							
+							<ul class="banner-nav-list">
+								<li class="active"></li>
+								<li></li>
+								<li></li>								
+							</ul>
 						</li>
 						<li class="li-t">
 							<h5><a>乐视手机1S （双4G）</a></h5>
@@ -213,7 +239,16 @@
 					<div class="d-d-l"><a href="#"><img src="../img/1F-1.jpg"/></a></div>
 					<ul class="d-u-r">
 						<li class="li-lb">
-							
+							<ul class="img-list">
+								<li><img src="../img/slb1.jpg"/></li>
+								<li><img src="../img/slb2.jpg"/></li>
+								<li><img src="../img/slb3.jpg"/></li>								
+							</ul>							
+							<ul class="banner-nav-list">
+								<li class="active"></li>
+								<li></li>
+								<li></li>								
+							</ul>
 						</li>
 						<li class="li-t">
 							<h5><a>乐视手机1S （双4G）</a></h5>
@@ -255,12 +290,20 @@
 		</div>
 		<!--侧边导航栏-->
 		<div class="nav">
-			
+			<div class="img-1"><p class="nav-p">我的订单</p></div>
+			<div class="img-2"><p class="nav-p">我的足迹</p></div>			
+			<div class="img-3"><p class="nav-p">购物车</p></div>
 		</div>			
 		<!--尾部-->
 		<div class="footer">
 			
 		</div>
-		
+			
+			<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+			<script src="../js/startMove.js"></script>
+			<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+			<script type="text/javascript">
+			
+			</script>
 	</body>
 </html>

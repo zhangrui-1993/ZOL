@@ -123,11 +123,26 @@
 				<a href="#">默认</a><a href="#">高人气</a><a href="#">高销量</a><a href="#">价格由低到高</a><a href="#">价格由高到低</a><a href="#">发货地</a><a><span><input type="text" placeholder="￥"/>——<input type="text" placeholder="￥"/></span></a><a href="#"><input type="checkbox"/>限时抢购</a><a href="#"><input type="checkbox"/>店铺活动</a>
 			</div>
 			<ul class="m-m-list">
-				<li>
-					<div class="">
-						
-					</div>
-				</li>
+				<li class="hover">
+					<div class="list-1">
+						<p><a href="http://www.zol.com/detail/digital_camera/canon/24449287.html" target="_blank" class="pic"><img src="../img/c1.jpg"/></a></p>
+						<a href="http://www.zol.com/detail/digital_camera/canon/24449287.html" /> Canon 佳能 5D Mark III套机（24-105mm）准专业单反相机5D3（24-105）套机、*完善的售后、被信任是一种快乐！ </a>
+						<div class="attention" onclick="$.saveGoodsFllow({goodsId: '24449287', merchantId: '190324', goodsName: 'Canon 佳能 5D Mark III套机（24-105mm）准专业单反相机5D3（24-105）套机、*完善的售后、被信任是一种快乐！', goodsPrice: '19000.00'}, this)"><span>关注</span></div>
+	                    <div class="price-bar clearfix">
+	                        <span class="price">￥19000.00</span>
+	                        <span class="activity-infor" style="display:none;">最多减￥1000</span>
+	                    </div>                                        
+	                    <div class="volume"><span>销量数<em>&nbsp;6</em></span><span class="evaluation">评价数 <a href="http://www.zol.com/detail/digital_camera/canon/24449287.html#zp-nav-order-review" target="_blank">0</a></span></div>
+	                    <div class="shop-infor">
+	                        <p class="shop-name">
+	                            <a href="http://www.zol.com/shop_190324/" target="_blank" title="华晨数码专营店">华晨数码专营店</a>                            
+	                        </p>
+	                        <p class="total-volume">店铺总成交<em>3369</em>笔</p>
+	                        <p><a href="http://www.zol.com/shop_190324/" target="_blank">查看本店更多活动&gt;&gt;</a></p>
+	                    </div>
+                    </div> 
+
+                </li>
 			</ul>
 		</div>
 		</div>
@@ -136,6 +151,10 @@
 		<div class="footer">
 			
 		</div>
-		
+		<script type="text/javascript">
+			$(".m-m-list").hover(function(){
+				this.find(".hover .shop-infor").css("display","none")
+			})
+		</script>
 	</body>
 </html>

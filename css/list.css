@@ -22,3 +22,8 @@
 .m-t-l4{width: 1198px;background: #f7f7f7;border: 1px solid #e6e6e6;height: 38px;line-height: 38px;}
 .m-t-l4 a{color: #333;padding: 10px;font-size: 12px;} 
 .m-t-l4 input{width: 40px;}
+
+.list-1{width: 240px;height: 378px;border: 1px solid salmon;}
+.list-1 p{font-size: 12px;}
+.list-1 p img{width: 200px;height: 200px;display: block;}
+.m-m-list

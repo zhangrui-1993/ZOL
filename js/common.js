@@ -8,3 +8,8 @@ function loadHtml(url,target){
 		  	}
 		})
 };
+$(".dlLi1>dd").click(function() {
+	$(this).css("backgroundColor","#f33");
+}, function() {
+	$(this).css("backgroundColor","#000");
+})
